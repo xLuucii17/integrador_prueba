@@ -21,7 +21,7 @@ body {
 
 /* NOSOTROS.HTML */
 .titulo-destacado span {
-    color: blueviolet;
+    color: #323232;
 }
 
 .nosotros-iconos {
@@ -62,6 +62,18 @@ body {
 .nosotros-iconos i.ig:hover {
     color: #e1306c;
 }
+
+.nosotros-imagen {
+    border: 3px #6C567B solid;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.us {
+    border-radius: 20px;
+}
+
+
 
 /* CARRITO.HTML */
 
