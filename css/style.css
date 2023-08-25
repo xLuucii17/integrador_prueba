@@ -105,9 +105,30 @@ body {
 
 /* CARRITO.HTML */
 
-
+.tarjetas {
+    background-image: linear-gradient(#FCBAAD, #FDE5EC);
+    border-radius: 10px;
+}
 .tarjetas img {
     width: 35px;
+}
+
+.pagar {
+    background-image: linear-gradient(#916DB3, #C06C84);
+}
+
+.compras {
+    background-image: linear-gradient(#FCBAAD, #FDE5EC, #f5babb);
+    border-radius: 30px;
+}
+
+.resumen {
+    background-image: linear-gradient(#FCBAAD, #FDE5EC);
+    border-radius: 20px;
+}
+
+.gratis {
+    background-color: #6cc06c;
 }
 
 
