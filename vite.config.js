@@ -17,10 +17,10 @@ export default {
                 carrito: resolve ('pages/carrito.html'),
                 nosotros: resolve ('pages/nosotros.html'),
                 inicio: resolve ('index.html'),
-                cds: resolve ('cds.html'),
-                vinilos: resolve ('vinilos.html'),
-                cassettes: resolve ('cassettes.html'),
-                outlet: resolve ('outlet.html')
+                cds: resolve ('pages/cds.html'),
+                vinilos: resolve ('pages/vinilos.html'),
+                cassettes: resolve ('pages/cassettes.html'),
+                outlet: resolve ('pages/outlet.html')
             }
 
         }
