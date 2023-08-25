@@ -20,18 +20,28 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+h1 {
+    font-weight: 900;
+}
 
+h2, h3 {
+    font-weight: 600;
+}
 
-
+p {
+    font-weight: 400;
+}
 
 
 /* NOSOTROS.HTML */
 .titulo-destacado span {
     color: #323232;
+    background-color: #E48586;
 }
 
 .nosotros-iconos {
-    margin: 3em 0 3em 0;
+    margin-left: 7em;
+    margin-right: 7em;
 }
 
 
@@ -47,8 +57,8 @@ body {
     margin: 0;
     padding: 0;
     display: inline-block;
-}
 
+}
 
 
 .nosotros-iconos i:hover {
@@ -56,17 +66,20 @@ body {
     transition: all .6s;
 }
 
-
 .nosotros-iconos i.fb:hover {
     color: #1877f2;
 }
 
-.nosotros-iconos i.tw:hover {
-    color: #1da1f2;
+.nosotros-iconos i.sp:hover {
+    color: #1db954;
 }
 
 .nosotros-iconos i.ig:hover {
     color: #e1306c;
+}
+
+.nosotros-iconos i.git:hover {
+    color: #6e5494;
 }
 
 .nosotros-imagen {
@@ -81,27 +94,21 @@ body {
 .contacto {
     border: #3333337e 0.05rem solid;
     border-radius: 15px;
-    background-image: linear-gradient(#916DB3, #E48586, #FCBAAD, #FDE5EC);
+    background-image: linear-gradient(#FDE5EC,#FCBAAD,#E48586);
     transition-property: box-shadow;
     transition-duration: 2s;
 }
 
 .contacto:hover {
-
     box-shadow: -15px 10px 15px #5555555e;
-    background-image: linear-gradient(#FDE5EC,#FCBAAD,#E48586,#916DB3);
+    background-image: linear-gradient(#E48586, #FCBAAD, #FDE5EC);
 }
-
-
 
 .form-boton {
     background-image: linear-gradient(#916DB3, #C06C84);
     border-color: #323232;
 }
 
-.maps {
-    justify-items: center;
-}
 
 /* CARRITO.HTML */
 
