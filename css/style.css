@@ -3,6 +3,11 @@ https://colorhunt.co/palette/f8b195f67280c06c846c567b
 https://colorhunt.co/palette/fde5ecfcbaade48586916db3
 */
 
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600;900&display=swap');
+  /* font-family: 'Outfit', sans-serif; */
+
+
+
 * {
 margin: 0;
 padding: 0;
@@ -12,6 +17,7 @@ box-sizing: border-box;
 
 body {
     background-image: linear-gradient(#916DB3, #C06C84, #F67280, #F8B195);
+    font-family: 'Outfit', sans-serif;
 }
 
 
@@ -25,7 +31,7 @@ body {
 }
 
 .nosotros-iconos {
-    margin: 3em 0 3em 0
+    margin: 3em 0 3em 0;
 }
 
 
@@ -64,9 +70,8 @@ body {
 }
 
 .nosotros-imagen {
-    border: 3px #6C567B solid;
+    border: 6px #6C567B solid;
     border-radius: 20px;
-    background-size: cover;
 }
 
 .us {
@@ -74,12 +79,29 @@ body {
 }
 
 .contacto {
-    border: #323232 2px solid;
+    border: #3333337e 0.05rem solid;
     border-radius: 15px;
+    background-image: linear-gradient(#916DB3, #E48586, #FCBAAD, #FDE5EC);
+    transition-property: box-shadow;
+    transition-duration: 2s;
+}
+
+.contacto:hover {
+
+    box-shadow: -15px 10px 15px #5555555e;
+    background-image: linear-gradient(#FDE5EC,#FCBAAD,#E48586,#916DB3);
 }
 
 
 
+.form-boton {
+    background-image: linear-gradient(#916DB3, #C06C84);
+    border-color: #323232;
+}
+
+.maps {
+    justify-items: center;
+}
 
 /* CARRITO.HTML */
 
