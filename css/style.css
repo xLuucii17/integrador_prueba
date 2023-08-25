@@ -131,6 +131,9 @@ body {
     background-color: #6cc06c;
 }
 
+.carrito-header {
+    font-size: 1.25rem;
+}
 
 /* NAVBAR /todos los html/ */
 .navbar {
